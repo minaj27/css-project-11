@@ -1,0 +1,14 @@
+::placeholder{
+    color: greenyellow;
+}
+input{
+    border: 1px solid red;
+}
+input[type="radio"]:checked +span{
+    color: darkcyan;
+    font-size: 20px;
+}
+input[type="checkbox"]:checked +span{
+    color: aqua;
+    font-size: 20px;
+}
